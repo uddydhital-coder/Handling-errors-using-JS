@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Handle Errors in JS</title>
+</head>
+<body>
+
+<h2>Handle Errors in JS</h2>
+
+
+
+<p id="output"></p>
+
+<script>
+function runCode() {
+    let out = document.getElementById("output");
+
+    try {
+       
+        addalert();
+    }
+    catch (error) {
+        out.innerHTML = error;   
+    }
+}
+</script>
+
+</body>
+</html>
